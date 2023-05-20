@@ -44,7 +44,7 @@ $$\underset{\alpha,\beta:\alpha_i\geqslant0}{max}\theta_D(\alpha,\beta)=\underse
 $$d^* =\underset{\alpha,\beta:\alpha_i\geqslant0}{max}\underset{w}{min}L(w,\alpha,\beta)\leqslant\underset{w}
 {min}\underset{\alpha,\beta:\alpha_i\geqslant0}L(w,\alpha,\beta)=p^*$$
 
-可以证明，当 $f,g$ 都是凸函数， $h$是仿射的（即存在 $a_i,b_i$ 使得 $h_i(w)=a_i^T w+b_i)$ ，且存在 $w$ 使得对于所有的 $i$ 都有： $g_i(w)<0$ 时，一定存在 $w^* $是原问题的解， $\alpha^* ,\beta^* $ 是对偶问题的解，同时满足 $p^* = d^* = L(w^* ,\alpha^* ,\beta^* ) $，而且 $w^* ,\alpha^* ,\beta^* $ 还满足 $Karush-Kuhn-Tucker(KKT)$条件：
+可以证明，当 $f,g$ 都是凸函数， $h$是仿射的（即存在 $a_i,b_i$ 使得 $h_i(w)=a_i^T w+b_i)$ ，且存在 $w$ 使得对于所有的 $i$ 都有： $g_i(w)<0$ 时，一定存在 $w^* $是原问题的解, $\alpha^* ,\beta^* $是对偶问题的解，同时满足 $p^* = d^* = L(w^* ,\alpha^* ,\beta^* ) $，而且 $w^* $, $\alpha^* ,\beta^* $还满足 $Karush-Kuhn-Tucker(KKT)$条件：
 
 ![](<../.gitbook/assets/image (13).png>)
 
